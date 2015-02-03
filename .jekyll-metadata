@@ -1,0 +1,75 @@
+---
+/Users/Michael/Desktop/Website/espemi01.github.io/_posts/2015-01-26-welcome-to-jekyll.markdown:
+  mtime: 2015-02-02 23:58:31.000000000 -06:00
+  deps:
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_layouts/post.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/head.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/header.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/footer.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_layouts/default.html
+/Users/Michael/Desktop/Website/espemi01.github.io/about.md:
+  mtime: 2015-02-03 10:02:20.000000000 -06:00
+  deps:
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_layouts/page.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/head.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/header.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/footer.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_layouts/default.html
+/Users/Michael/Desktop/Website/espemi01.github.io/blog.html:
+  mtime: 2015-02-03 10:09:25.000000000 -06:00
+  deps:
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_layouts/page.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/head.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/header.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/footer.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_layouts/default.html
+/Users/Michael/Desktop/Website/espemi01.github.io/blog.md:
+  mtime: 2015-02-03 10:10:21.000000000 -06:00
+  deps:
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_layouts/page.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/head.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/header.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/footer.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_layouts/default.html
+/Users/Michael/Desktop/Website/espemi01.github.io/feed.xml:
+  mtime: 2015-02-02 23:58:31.000000000 -06:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/index.html:
+  mtime: 2015-02-03 10:07:08.000000000 -06:00
+  deps:
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/head.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/header.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/footer.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_layouts/default.html
+/Users/Michael/Desktop/Website/espemi01.github.io/CNAME:
+  mtime: 2015-02-02 23:50:38.000000000 -06:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/README.md:
+  mtime: 2015-01-26 16:48:08.000000000 -06:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/_layouts/post.html:
+  mtime: 2015-02-03 09:50:12.000000000 -06:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/_layouts/page.html:
+  mtime: 2015-02-02 23:58:31.000000000 -06:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/_includes/head.html:
+  mtime: 2015-02-02 23:58:31.000000000 -06:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/_includes/header.html:
+  mtime: 2015-02-02 23:58:31.000000000 -06:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/_includes/footer.html:
+  mtime: 2015-02-02 23:58:31.000000000 -06:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/_layouts/default.html:
+  mtime: 2015-02-02 23:58:31.000000000 -06:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/projects.html:
+  mtime: 2015-02-03 10:17:07.000000000 -06:00
+  deps:
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_layouts/page.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/head.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/header.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/footer.html
+  - /Users/Michael/Desktop/Website/espemi01.github.io/_layouts/default.html
