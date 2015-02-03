@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: All About M.E.
 image:
   feature: abstract-5.jpg
