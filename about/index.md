@@ -2,9 +2,9 @@
 layout: about
 title: All About M.E.
 image:
-  feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: sky.jpg
+  credit: Myself
+  creditlink: https://www.flickr.com/gp/125206168@N07/ku7amX
 comments: false
 modified: 2015-02-03
 ---
