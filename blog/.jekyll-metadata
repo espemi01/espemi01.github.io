@@ -1,6 +1,6 @@
 ---
 /Users/Michael/Desktop/Website/espemi01.github.io/blog/_posts/2015-01-26-welcome-to-jekyll.markdown:
-  mtime: 2015-01-26 16:58:51.000000000 -06:00
+  mtime: 2015-02-02 23:07:15.000000000 -06:00
   deps:
   - /Users/Michael/Desktop/Website/espemi01.github.io/blog/_layouts/post.html
   - /Users/Michael/Desktop/Website/espemi01.github.io/blog/_includes/head.html
@@ -8,7 +8,7 @@
   - /Users/Michael/Desktop/Website/espemi01.github.io/blog/_includes/footer.html
   - /Users/Michael/Desktop/Website/espemi01.github.io/blog/_layouts/default.html
 /Users/Michael/Desktop/Website/espemi01.github.io/blog/about.md:
-  mtime: 2015-01-26 17:31:02.000000000 -06:00
+  mtime: 2015-02-02 23:07:15.000000000 -06:00
   deps:
   - /Users/Michael/Desktop/Website/espemi01.github.io/blog/_layouts/page.html
   - /Users/Michael/Desktop/Website/espemi01.github.io/blog/_includes/head.html
@@ -16,10 +16,10 @@
   - /Users/Michael/Desktop/Website/espemi01.github.io/blog/_includes/footer.html
   - /Users/Michael/Desktop/Website/espemi01.github.io/blog/_layouts/default.html
 /Users/Michael/Desktop/Website/espemi01.github.io/blog/feed.xml:
-  mtime: 2015-01-26 16:58:51.000000000 -06:00
+  mtime: 2015-02-02 23:07:15.000000000 -06:00
   deps: []
 /Users/Michael/Desktop/Website/espemi01.github.io/blog/index.html:
-  mtime: 2015-01-26 16:58:51.000000000 -06:00
+  mtime: 2015-02-02 23:07:15.000000000 -06:00
   deps:
   - /Users/Michael/Desktop/Website/espemi01.github.io/blog/_includes/head.html
   - /Users/Michael/Desktop/Website/espemi01.github.io/blog/_includes/header.html
