@@ -1,16 +1,63 @@
-# Site settings
-title: Michael Espey
-email: michael@maespey.com
-description: > # this means to ignore newlines until "baseurl:"
-  I am currently a student at Luther College in Decorah Iowa.
-  I am working on my Undergrad in Computer Science.<br />
-  This is mainly just a place for me to play around with
-  to practice.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://maespey.com" # the base hostname & protocol for your site
-twitter_username: 19_MAE_94
-github_username:  espemi01
-instagram_username: m_espey
+title:            Michael Espey
+description:      all about M.E.
+disqus_shortname: 
+reading_time:     true
+words_per_minute: 200
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+url:              
 
-# Build settings
-markdown: kramdown
+# Owner/author information
+owner:
+  name:           Michael Espey
+  avatar:         avatar.jpg
+  bio:            "I am a 20 year old Luther College student."
+  email:          me@maespey.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        19_MAE_94
+  facebook:       loading.michael
+  github:         espemi01
+  stackexchange:  x
+  linkedin:       x
+  instagram:      m_espey
+  flickr:         espemi01
+
+# Background image to be tiled on all pages
+background: 
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-59294223-1
+google_verify:      
+bing_verify:         
+
+timezone:    America/Chicago
+future:      true
+highlighter: pygments
+markdown:    kramdown
+gems:
+  - jekyll-sitemap
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
