@@ -1,5 +1,5 @@
 ---
-hide: f
+hide: false
 layout: post
 title: Testing Layouts
 description: "This is only a test"
