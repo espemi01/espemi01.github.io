@@ -35,7 +35,7 @@
   mtime: 2015-02-02 23:58:31.000000000 -06:00
   deps: []
 /Users/Michael/Desktop/Website/espemi01.github.io/index.html:
-  mtime: 2015-02-03 10:52:38.000000000 -06:00
+  mtime: 2015-02-03 10:54:35.000000000 -06:00
   deps:
   - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/head.html
   - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/header.html
@@ -73,3 +73,27 @@
   - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/header.html
   - /Users/Michael/Desktop/Website/espemi01.github.io/_includes/footer.html
   - /Users/Michael/Desktop/Website/espemi01.github.io/_layouts/default.html
+/Users/Michael/Desktop/Website/espemi01.github.io/css/bootstrap-responsive.css:
+  mtime: 2013-07-27 00:50:48.000000000 -05:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/css/bootstrap-responsive.min.css:
+  mtime: 2013-07-27 00:50:48.000000000 -05:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/css/bootstrap.css:
+  mtime: 2013-07-27 00:50:46.000000000 -05:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/css/bootstrap.min.css:
+  mtime: 2013-07-27 00:50:46.000000000 -05:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/img/glyphicons-halflings-white.png:
+  mtime: 2013-07-27 00:50:46.000000000 -05:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/img/glyphicons-halflings.png:
+  mtime: 2013-07-27 00:50:46.000000000 -05:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/js/bootstrap.js:
+  mtime: 2013-07-27 00:50:48.000000000 -05:00
+  deps: []
+/Users/Michael/Desktop/Website/espemi01.github.io/js/bootstrap.min.js:
+  mtime: 2013-07-27 00:50:48.000000000 -05:00
+  deps: []
