@@ -24,6 +24,6 @@ This is my first crack at blogging, I believe it is a great medium to keep all o
 * I got everything just how I wanted in under a week, all said and done.
 * And best yet...it supports both legacy browsers and all modern browsers!!
 
-### Check out my [code](http://view.maespey.com)
+### Check out my [code](http://code.maespey.com)
 
 <a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-success">Get HPSTR</a>
