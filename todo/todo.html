@@ -1,0 +1,317 @@
+<html>
+<head>
+<link rel=stylesheet href="todo.css" type="text/css">
+<title>Michael's To-Do list</title>
+
+<script type="text/javascript">
+	addNew = function(x, text, lst){
+
+        var weight = x;
+                
+        if (text == ''){
+            alert ("Please enter something in the box!");
+            return 1;
+        };
+
+		var cb = document.createElement("input");
+		cb.type="checkbox";
+		cb.name="checkbox";
+        cb.onclick = strike;
+		
+		var label = document.createElement('label');
+		label.id = weight;
+		label.appendChild(document.createTextNode(text));
+
+		var ul = document.getElementById(lst);
+		var newItem = document.createElement("li");
+		newItem.id = weight;
+        newItem.className = "itemLabel";
+        newItem.name = lst;
+
+		newItem.appendChild(cb);
+		var n = document.createTextNode(text);
+        n.name = "itemLabel";
+		newItem.appendChild(n);
+
+		ul.appendChild(newItem);
+		localSave();
+        return 1;
+	};
+
+	strike = function(){
+		var a = document.getElementsByClassName("itemLabel");
+        var b = document.getElementsByName("checkbox");
+
+		for (var i=0; i<b.length; i++){
+			if (b[i].checked){
+				if (a[i].id == 'high'){
+					a[i].id = 'Shigh';
+				};
+				if (a[i].id == 'med'){
+					a[i].id = 'Smed';
+				};
+				if (a[i].id == 'low'){
+					a[i].id = 'Slow';
+				};
+			};
+		};
+        
+        for (var i=0; i<b.length; i++){
+			if (!b[i].checked){
+				if (a[i].id == 'Shigh'){
+					a[i].id = 'high';
+				};
+				if (a[i].id == 'Smed'){
+					a[i].id = 'med';
+				};
+				if (a[i].id == 'Slow'){
+					a[i].id = 'low';
+				};
+			};
+		};
+    localSave();
+	return 1;
+	};
+    
+    
+    
+    localSave = function() {
+        resHighg = [];
+        resMedg = [];
+        resLowg = [];
+        
+        resHighs = [];
+        resMeds = [];
+        resLows = [];
+        
+        resHighw = [];
+        resMedw = [];
+        resLoww = [];
+        
+        allEntries = document.getElementsByClassName("itemLabel");
+        for(var i=0; i < allEntries.length; i++){
+            if (allEntries[i].id == "high") {
+                if (allEntries[i].name == "General") {
+                    resHighg.push(allEntries[i].innerText);
+                }
+                if (allEntries[i].name == "School") {
+                    resHighs.push(allEntries[i].innerText);
+                }
+                if (allEntries[i].name == "Work") {
+                    resHighw.push(allEntries[i].innerText);
+                }
+            }
+            if (allEntries[i].id == "med") {
+                if (allEntries[i].name == "General"){
+                    resMedg.push(allEntries[i].innerText);
+                }
+                if (allEntries[i].name == "School"){
+                    resMeds.push(allEntries[i].innerText);
+                }
+                if (allEntries[i].name == "Work"){
+                    resMedw.push(allEntries[i].innerText);
+                }
+            }
+            if (allEntries[i].id == "low") {
+                if (allEntries[i].name == "General"){
+                    resLowg.push(allEntries[i].innerText);
+                }
+                if (allEntries[i].name == "School"){
+                    resLows.push(allEntries[i].innerText);
+                }
+                if (allEntries[i].name == "Work"){
+                    resLoww.push(allEntries[i].innerText);
+                }
+            }
+        }
+        //prints to console
+        console.log(resHighg);
+        console.log(resMedg);
+        console.log(resLowg);
+        
+        console.log(resHighs);
+        console.log(resMeds);
+        console.log(resLows);
+        
+        console.log(resHighw);
+        console.log(resMedw);
+        console.log(resLoww);
+        
+        //store the arrays in localStorage
+        localStorage.setItem("todoHighg",JSON.stringify(resHighg))
+        localStorage.setItem("todoMedg",JSON.stringify(resMedg))
+        localStorage.setItem("todoLowg",JSON.stringify(resLowg))
+        
+        localStorage.setItem("todoHighs",JSON.stringify(resHighs))
+        localStorage.setItem("todoMeds",JSON.stringify(resMeds))
+        localStorage.setItem("todoLows",JSON.stringify(resLows))
+        
+        localStorage.setItem("todoHighw",JSON.stringify(resHighw))
+        localStorage.setItem("todoMedw",JSON.stringify(resMedw))
+        localStorage.setItem("todoLoww",JSON.stringify(resLoww))
+    };
+    
+    localLoad = function() {
+        allHighg = localStorage.getItem("todoHighg");
+        allMedg = localStorage.getItem("todoMedg");
+        allLowg = localStorage.getItem("todoLowg");
+        
+        allHighs = localStorage.getItem("todoHighs");
+        allMeds = localStorage.getItem("todoMeds");
+        allLows = localStorage.getItem("todoLows");
+        
+        allHighw = localStorage.getItem("todoHighw");
+        allMedw = localStorage.getItem("todoMedw");
+        allLoww = localStorage.getItem("todoLoww");
+        
+        loadHighg = [];
+        loadMedg = [];
+        loadLowg = [];
+        
+        loadHighs = [];
+        loadMeds = [];
+        loadLows = [];
+        
+        loadHighw = [];
+        loadMedw = [];
+        loadLoww = [];
+        
+        loadHighg = JSON.parse(allHighg);
+        loadMedg = JSON.parse(allMedg);
+        loadLowg = JSON.parse(allLowg);
+        
+        loadHighs = JSON.parse(allHighs);
+        loadMeds = JSON.parse(allMeds);
+        loadLows = JSON.parse(allLows);
+        
+        loadHighw = JSON.parse(allHighw);
+        loadMedw = JSON.parse(allMedw);
+        loadLoww = JSON.parse(allLoww);
+        
+        for(var i=0; i < loadHighg.length; i++){
+            addNew("high", loadHighg[i], 'General');
+        };
+            
+        for(var i=0; i < loadMedg.length; i++){
+            addNew("med", loadMedg[i], 'General');
+        };
+            
+        for(var i=0; i < loadLowg.length; i++){
+            addNew("low", loadLowg[i], 'General');
+        };
+        
+        for(var i=0; i < loadHighs.length; i++){
+            addNew("high", loadHighs[i], 'School');
+        };
+            
+        for(var i=0; i < loadMeds.length; i++){
+            addNew("med", loadMeds[i], 'School');
+        };
+            
+        for(var i=0; i < loadLows.length; i++){
+            addNew("low", loadLows[i], 'School');
+        };
+        
+        for(var i=0; i < loadHighw.length; i++){
+            addNew("high", loadHighw[i], 'Work');
+        };
+            
+        for(var i=0; i < loadMedw.length; i++){
+            addNew("med", loadMedw[i], 'Work');
+        };
+            
+        for(var i=0; i < loadLoww.length; i++){
+            addNew("low", loadLoww[i], 'Work');
+        };
+    };
+    
+    toggle = function(txt) {
+        item = document.getElementById(txt)
+        if(item.style.display != 'none'){
+            item.style.display = 'none';
+        }
+        else{
+            item.style.display = '';
+        }
+    }
+        
+</script>
+
+</head>
+
+<body onload = "localLoad()">
+
+<section>
+<box>
+    <general id = "General">
+        <b style = "color: #747474">General</b><br>
+        <ul name = "lst" style = "position: relative;">
+        </ul>
+    </general>
+    <school id = "School">
+        <b style = "color: #747474">School</b><br>
+        <ul name = "lst" style = "position: relative;">
+        </ul>
+    </school>
+    <work id = "Work">
+        <b style = "color: #747474">Work</b><br>
+        <ul name = "lst" style = "position: relative;">
+        </ul>
+    </work>
+</box>
+
+<entry>
+<h1>Michael's<br>To-Do list</h1>
+
+<hr>
+
+<input type = "text" id = "newTask" name = "newTask" placeholder = "Enter a new task!"><br>
+    
+
+<subE>
+Importance:
+<form action="">
+<input type = "radio" name = "option" value = "high" onclick = "{text = document.getElementById('newTask').value} {lst = document.getElementById('listSet').value} addNew(this.value,text,lst)"><text id = "high">High</text><br>
+<input type = "radio" name = "option" value = "med" onclick = "{text = document.getElementById('newTask').value} {lst = document.getElementById('listSet').value} addNew(this.value,text,lst)"><text id = "med">Medium</text><br>
+<input type = "radio" name = "option" value = "low" onclick = "{text = document.getElementById('newTask').value} {lst = document.getElementById('listSet').value} addNew(this.value,text,lst)"><text id = "low">Low</text>
+</form>
+
+<b>Which List do you want to add this to?</b><br>
+<select name = "listSet" id = "listSet">
+    <option value= "General">General</option>
+    <option value= "School">School</option>
+    <option value= "Work">Work</option>
+</select>
+    
+</subE>
+<hr>
+How to:
+<hr>
+Enter the value above<br>
+then click the level<br>
+of importance.<br><br>
+<b>Profit</b>
+
+</entry>
+    
+<div>
+<b>Which List do you want to display?</b><br>
+<!--
+<select name = "listSelector" id = "select">
+    <option value= "all">All Items</option>
+    <option value= "School">School</option>
+    <option value= "Work">Work</option>
+    <option value= "General">General</option>
+</select>
+-->
+
+<button onclick = "toggle('General')">General</button>
+<button onclick = "toggle('School')">School</button>
+<button onclick = "toggle('Work')">Work</button>
+</div>
+
+</section>
+
+</body>
+
+</html>
