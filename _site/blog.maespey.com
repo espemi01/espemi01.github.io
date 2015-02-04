@@ -22,14 +22,14 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Latest Posts">
 <meta property="og:description" content="Things.">
-<meta property="og:url" content="/blog/index.html">
+<meta property="og:url" content="/blog.maespey.com">
 <meta property="og:site_name" content="Michael Espey">
 
 
 
 
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog.maespey.com">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Michael Espey Feed">
 
 <!-- http://t.co/dKP3o1e -->
