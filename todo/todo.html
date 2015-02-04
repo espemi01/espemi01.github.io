@@ -91,35 +91,35 @@
         allEntries = document.getElementsByClassName("itemLabel");
         for(var i=0; i < allEntries.length; i++){
             if (allEntries[i].id == "high") {
-                if (allEntries[i].name == "General") {
+                if (allEntries[i].name == "New Test.") {
                     resHighg.push(allEntries[i].innerText);
                 }
-                if (allEntries[i].name == "School") {
+                if (allEntries[i].name == "Android") {
                     resHighs.push(allEntries[i].innerText);
                 }
-                if (allEntries[i].name == "Work") {
+                if (allEntries[i].name == "Programming Languages") {
                     resHighw.push(allEntries[i].innerText);
                 }
             }
             if (allEntries[i].id == "med") {
-                if (allEntries[i].name == "General"){
+                if (allEntries[i].name == "New Test."){
                     resMedg.push(allEntries[i].innerText);
                 }
-                if (allEntries[i].name == "School"){
+                if (allEntries[i].name == "Android"){
                     resMeds.push(allEntries[i].innerText);
                 }
-                if (allEntries[i].name == "Work"){
+                if (allEntries[i].name == "Programming Languages"){
                     resMedw.push(allEntries[i].innerText);
                 }
             }
             if (allEntries[i].id == "low") {
-                if (allEntries[i].name == "General"){
+                if (allEntries[i].name == "New Test."){
                     resLowg.push(allEntries[i].innerText);
                 }
-                if (allEntries[i].name == "School"){
+                if (allEntries[i].name == "Android"){
                     resLows.push(allEntries[i].innerText);
                 }
-                if (allEntries[i].name == "Work"){
+                if (allEntries[i].name == "Programming Languages"){
                     resLoww.push(allEntries[i].innerText);
                 }
             }
@@ -189,39 +189,39 @@
         loadLoww = JSON.parse(allLoww);
         
         for(var i=0; i < loadHighg.length; i++){
-            addNew("high", loadHighg[i], 'General');
+            addNew("high", loadHighg[i], 'New Test.');
         };
             
         for(var i=0; i < loadMedg.length; i++){
-            addNew("med", loadMedg[i], 'General');
+            addNew("med", loadMedg[i], 'New Test.');
         };
             
         for(var i=0; i < loadLowg.length; i++){
-            addNew("low", loadLowg[i], 'General');
+            addNew("low", loadLowg[i], 'New Test.');
         };
         
         for(var i=0; i < loadHighs.length; i++){
-            addNew("high", loadHighs[i], 'School');
+            addNew("high", loadHighs[i], 'Android');
         };
             
         for(var i=0; i < loadMeds.length; i++){
-            addNew("med", loadMeds[i], 'School');
+            addNew("med", loadMeds[i], 'Android');
         };
             
         for(var i=0; i < loadLows.length; i++){
-            addNew("low", loadLows[i], 'School');
+            addNew("low", loadLows[i], 'Android');
         };
         
         for(var i=0; i < loadHighw.length; i++){
-            addNew("high", loadHighw[i], 'Work');
+            addNew("high", loadHighw[i], 'Programming Languages');
         };
             
         for(var i=0; i < loadMedw.length; i++){
-            addNew("med", loadMedw[i], 'Work');
+            addNew("med", loadMedw[i], 'Programming Languages');
         };
             
         for(var i=0; i < loadLoww.length; i++){
-            addNew("low", loadLoww[i], 'Work');
+            addNew("low", loadLoww[i], 'Programming Languages');
         };
     };
     
@@ -243,21 +243,21 @@
 
 <section>
 <box>
-    <general id = "General">
-        <b style = "color: #747474">General</b><br>
+    <New Test. id = "New Test.">
+        <b style = "color: #747474">New Test.</b><br>
         <ul name = "lst" style = "position: relative;">
         </ul>
-    </general>
-    <school id = "School">
-        <b style = "color: #747474">School</b><br>
+    </New Test.>
+    <Android id = "Android">
+        <b style = "color: #747474">Android</b><br>
         <ul name = "lst" style = "position: relative;">
         </ul>
-    </school>
-    <work id = "Work">
-        <b style = "color: #747474">Work</b><br>
+    </Android>
+    <Programming Languages id = "Programming Languages">
+        <b style = "color: #747474">Programming Languages</b><br>
         <ul name = "lst" style = "position: relative;">
         </ul>
-    </work>
+    </Programming Languages>
 </box>
 
 <entry>
@@ -278,9 +278,9 @@ Importance:
 
 <b>Which List do you want to add this to?</b><br>
 <select name = "listSet" id = "listSet">
-    <option value= "General">General</option>
-    <option value= "School">School</option>
-    <option value= "Work">Work</option>
+    <option value= "New Test.">New Test.</option>
+    <option value= "Android">Android</option>
+    <option value= "Programming Languages">Programming Languages</option>
 </select>
     
 </subE>
@@ -299,15 +299,15 @@ of importance.<br><br>
 <!--
 <select name = "listSelector" id = "select">
     <option value= "all">All Items</option>
-    <option value= "School">School</option>
-    <option value= "Work">Work</option>
-    <option value= "General">General</option>
+    <option value= "Android">Android</option>
+    <option value= "Programming Languages">Programming Languages</option>
+    <option value= "New Test.">New Test.</option>
 </select>
 -->
 
-<button onclick = "toggle('General')">General</button>
-<button onclick = "toggle('School')">School</button>
-<button onclick = "toggle('Work')">Work</button>
+<button onclick = "toggle('New Test.')">New Test.</button>
+<button onclick = "toggle('Android')">Android</button>
+<button onclick = "toggle('Programming Languages')">Programming Languages</button>
 </div>
 
 </section>
