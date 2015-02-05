@@ -379,6 +379,9 @@ header .entry-meta {
 		@include rounded(3px);
 		margin-bottom: 20px;
 		padding: 25px 15px;
+		ul{
+			list-style-type: none;
+		}
 		@media #{$medium} {
 			padding: 30px;
 		}
