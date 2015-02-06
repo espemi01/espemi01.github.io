@@ -5,8 +5,8 @@
     <description>all about M.E.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Feb 2015 13:19:14 -0600</pubDate>
-    <lastBuildDate>Thu, 05 Feb 2015 13:19:14 -0600</lastBuildDate>
+    <pubDate>Fri, 06 Feb 2015 10:33:33 -0600</pubDate>
+    <lastBuildDate>Fri, 06 Feb 2015 10:33:33 -0600</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -55,6 +55,41 @@
         <guid isPermaLink="true">/first-test-post/</guid>
         
         <category>test post</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Todo List Project</title>
+        <description>&lt;p&gt;This is the first Javascript project that I put together. It was assigned in my internet programming class (CS 252).&lt;/p&gt;
+
+&lt;h3 id=&quot;completed-goals&quot;&gt;Completed Goals&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Different priority levels&lt;/li&gt;
+  &lt;li&gt;Seperate classes/divisions&lt;/li&gt;
+  &lt;li&gt;Have them mutable&lt;/li&gt;
+  &lt;li&gt;Color coded sections&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;additions-i-want-to-make&quot;&gt;Additions I want to make&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Android app to match&lt;/li&gt;
+  &lt;li&gt;Due dates&lt;/li&gt;
+  &lt;li&gt;Reminders via email/SMS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;todo.maespey.com&quot; class=&quot;btn btn-warning&quot;&gt;View Application&lt;/a&gt;&lt;a href=&quot;http://code.maespey.com&quot; class=&quot;btn btn-primary&quot;&gt;My Code&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Oct 2014 00:00:00 -0500</pubDate>
+        <link>/todo-list/</link>
+        <guid isPermaLink="true">/todo-list/</guid>
+        
+        <category>Luther</category>
+        
+        <category>Projects</category>
+        
+        <category>CS</category>
         
         
       </item>
