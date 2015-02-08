@@ -12,6 +12,7 @@ image:
 
 {% for post in paginator.posts %}
   {% if post.hide != true %}
+  {% if post.category != article %}
     <article class="hentry">
       <header>
         {% if post.image.feature %}
@@ -39,6 +40,7 @@ image:
         {{ post.content }}
       </div><!-- /.entry-content -->
     </article><!-- /.hentry -->
+  {% endif %}
   {% endif %}
 {% endfor %}
 
