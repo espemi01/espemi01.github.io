@@ -3,10 +3,10 @@
   <channel>
     <title>Michael Espey</title>
     <description>all about M.E.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Feb 2015 10:33:33 -0600</pubDate>
-    <lastBuildDate>Fri, 06 Feb 2015 10:33:33 -0600</lastBuildDate>
+    <link>http://maespey.com/</link>
+    <atom:link href="http://maespey.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 07 Feb 2015 18:24:53 -0600</pubDate>
+    <lastBuildDate>Sat, 07 Feb 2015 18:24:53 -0600</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -30,8 +30,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 04 Feb 2015 00:00:00 -0600</pubDate>
-        <link>/first-day-SP15/</link>
-        <guid isPermaLink="true">/first-day-SP15/</guid>
+        <link>http://maespey.com/first-day-SP15/</link>
+        <guid isPermaLink="true">http://maespey.com/first-day-SP15/</guid>
         
         <category>Luther</category>
         
@@ -51,8 +51,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 03 Feb 2015 00:00:00 -0600</pubDate>
-        <link>/first-test-post/</link>
-        <guid isPermaLink="true">/first-test-post/</guid>
+        <link>http://maespey.com/first-test-post/</link>
+        <guid isPermaLink="true">http://maespey.com/first-test-post/</guid>
         
         <category>test post</category>
         
@@ -82,8 +82,8 @@
 &lt;p&gt;&lt;a href=&quot;todo.maespey.com&quot; class=&quot;btn btn-warning&quot;&gt;View Application&lt;/a&gt;&lt;a href=&quot;http://code.maespey.com&quot; class=&quot;btn btn-primary&quot;&gt;My Code&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Oct 2014 00:00:00 -0500</pubDate>
-        <link>/todo-list/</link>
-        <guid isPermaLink="true">/todo-list/</guid>
+        <link>http://maespey.com/todo-list/</link>
+        <guid isPermaLink="true">http://maespey.com/todo-list/</guid>
         
         <category>Luther</category>
         

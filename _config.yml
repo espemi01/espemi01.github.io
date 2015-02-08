@@ -5,7 +5,7 @@ reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:              
+url:              http://maespey.com
 
 # Owner/author information
 owner:
@@ -16,7 +16,7 @@ owner:
   twitter:        19_MAE_94
   facebook:       loading.michael
   github:         espemi01
-  stackexchange:  x
+  stackexchange:  
   linkedin:       pub/michael-espey/a6/592/223
   instagram:      m_espey
   flickr:         espemi01
@@ -27,7 +27,18 @@ background:
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-59294223-1
 google_verify:      
-bing_verify:         
+bing_verify:       
+
+jekyll-archives:
+  enabled:
+    - tags
+    - year
+  layouts:
+    year: year_index
+    tag: tag_index
+  permalinks:
+    year: /:year/
+    tag: /tag/:name/
 
 timezone:    America/Chicago
 future:      true
@@ -41,7 +52,6 @@ sass:
 
 permalink:   /:categories/:title/
 
-# Amount of post to show on home page
 paginate: 5
 paginate_path: "blog/page:num/"
 
