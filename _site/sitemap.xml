@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://maespey.com/first-day-SP15/</loc>
+    <loc>http://maespey.com/projects/this-is-a-test/</loc>
+    <lastmod>2015-02-07T00:00:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://maespey.com/articles/first-day-SP15/</loc>
     <lastmod>2015-02-04T00:00:00-06:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -17,55 +22,61 @@
   </url>
   <url>
     <loc>http://maespey.com/404.html</loc>
-    <lastmod>2015-02-07T18:24:53-06:00</lastmod>
+    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/projects/</loc>
-    <lastmod>2015-02-07T18:24:53-06:00</lastmod>
+    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/blog/</loc>
-    <lastmod>2015-02-07T18:24:53-06:00</lastmod>
+    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/calendar/</loc>
-    <lastmod>2015-02-07T18:24:53-06:00</lastmod>
+    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/posts/</loc>
-    <lastmod>2015-02-07T18:24:53-06:00</lastmod>
+    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/tags/</loc>
-    <lastmod>2015-02-07T18:24:53-06:00</lastmod>
+    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://maespey.com/about/</loc>
+    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/</loc>
-    <lastmod>2015-02-07T18:24:53-06:00</lastmod>
+    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://maespey.com/about/</loc>
-    <lastmod>2015-02-07T18:24:53-06:00</lastmod>
+    <loc>http://maespey.com/theme-setup/</loc>
+    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://maespey.com/theme-setup/</loc>
-    <lastmod>2015-02-07T18:24:53-06:00</lastmod>
+    <loc>http://maespey.com/stuffy-stuff/</loc>
+    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
