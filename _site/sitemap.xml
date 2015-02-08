@@ -11,72 +11,72 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://maespey.com/first-test-post/</loc>
+    <loc>http://maespey.com/articles/first-test-post/</loc>
     <lastmod>2015-02-03T00:00:00-06:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://maespey.com/todo-list/</loc>
+    <loc>http://maespey.com/projects/todo-list/</loc>
     <lastmod>2014-10-16T00:00:00-05:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://maespey.com/404.html</loc>
-    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
+    <lastmod>2015-02-07T20:22:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/projects/</loc>
-    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
+    <lastmod>2015-02-07T20:22:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/blog/</loc>
-    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
+    <lastmod>2015-02-07T20:22:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/calendar/</loc>
-    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
+    <lastmod>2015-02-07T20:22:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/posts/</loc>
-    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
+    <lastmod>2015-02-07T20:22:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/tags/</loc>
-    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
+    <lastmod>2015-02-07T20:22:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/about/</loc>
-    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
+    <lastmod>2015-02-07T20:22:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/</loc>
-    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
+    <lastmod>2015-02-07T20:22:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://maespey.com/theme-setup/</loc>
-    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
+    <lastmod>2015-02-07T20:22:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://maespey.com/stuffy-stuff/</loc>
-    <lastmod>2015-02-07T20:19:02-06:00</lastmod>
+    <lastmod>2015-02-07T20:22:02-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

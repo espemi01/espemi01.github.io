@@ -3,6 +3,7 @@ hide: false
 layout: post
 title: Testing Layouts
 description: "This is only a test"
+category: articles
 modified: 2015-02-03
 tags: [test post]
 image:
