@@ -43,7 +43,7 @@ jekyll-archives:
 timezone:    America/Chicago
 future:      true
 highlighter: pygments
-markdown:    kramdown
+markdown:    rdiscount
 gems:
   - jekyll-sitemap
 sass:
