@@ -5,8 +5,8 @@
     <description>all about M.E.</description>
     <link>http://maespey.com/</link>
     <atom:link href="http://maespey.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Feb 2015 15:27:17 -0600</pubDate>
-    <lastBuildDate>Sat, 21 Feb 2015 15:27:17 -0600</lastBuildDate>
+    <pubDate>Sat, 21 Feb 2015 17:57:02 -0600</pubDate>
+    <lastBuildDate>Sat, 21 Feb 2015 17:57:02 -0600</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -109,7 +109,7 @@
   &lt;li&gt;Reminders via email/SMS&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;todo.maespey.com&quot; class=&quot;btn btn-warning&quot;&gt;View Application&lt;/a&gt;&lt;a href=&quot;http://code.maespey.com&quot; class=&quot;btn btn-primary&quot;&gt;My Code&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://todo.maespey.com&quot; target=&quot;_blank&quot; class=&quot;btn btn-warning&quot;&gt;View Application&lt;/a&gt;&lt;a href=&quot;http://code.maespey.com&quot; class=&quot;btn btn-primary&quot;&gt;My Code&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Oct 2014 00:00:00 -0500</pubDate>
         <link>http://maespey.com/projects/todo-list/</link>
