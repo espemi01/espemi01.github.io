@@ -22,18 +22,14 @@ h1 {
 // --------------------------------------------------
 a { 
 	text-decoration: none;
-	color: $link-color;
-	text-shadow: 0px 0px .5px $border-color;
+	color: $text-color;
+	text-shadow: 1px 1px 0.5px $border-color;
 	&:hover { 
-		color: lighten($link-color, 10); 
+		color: lighten($link-color, 20);
+		text-shadow: 1px 1px 0.5px $border-color;
 	}
 	&:focus { 
-		outline: thin dotted; 
 		color: darken($link-color, 10);
-	}
-	&:hover, 
-	&:active { 
-		outline: 0; 
 	}
 }
 
