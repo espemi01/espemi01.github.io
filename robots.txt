@@ -2,22 +2,13 @@
 permalink: robots.txt
 ---
 
-User-agent: *
-
-Disallow: /*/*/
-
 user-agent: *
+
+Allow: /about/$
+Allow: /blog/$
+Allow: /projects/$
+Allow: /$
 
 Disallow: /*
-
-user-agent: *
-
-Allow: /
-
-User-agent: *
-
-Allow: /*/
-
-User-agent: *
 
 Allow: /sitemap.xml
