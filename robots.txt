@@ -8,15 +8,11 @@ Disallow: /*/*/
 
 User-agent: *
 
-Disallow: /*/*
+Disallow: /*
 
 User-agent: *
 
 Allow: /*/
-
-User-agent: *
-
-Allow: /
 
 User-agent: *
 
