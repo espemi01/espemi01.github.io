@@ -6,9 +6,13 @@ User-agent: *
 
 Disallow: /*/*/
 
-User-agent: *
+user-agent: *
 
 Disallow: /*
+
+user-agent: *
+
+Allow: /
 
 User-agent: *
 
